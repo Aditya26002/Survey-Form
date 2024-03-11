@@ -9,12 +9,24 @@
 </head>
 
 <body>
+    <h1>GitHub Survey Form</h1>
     <div class="container">
         <form action="#" method="post" class="github-survey-form">
-            <h2>GitHub Survey Form</h2>
+            
+            <!-- Enter your Name -->
+            <label for="name"> Name :</label>
+            <input type="text" id="name" name="name" required>
+
+            <!-- Enter your email -->
+            <label for="email"> Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Enter your age -->
+            <label for="age"> Age :</label>
+            <input type="number" id="age" name="age" required>
 
             <!-- Question 1: GitHub Usage Frequency -->
-            <label for="usage-frequency">1. How often do you use GitHub?</label>
+            <label for="usage-frequency"> How often do you use GitHub?</label>
             <select id="usage-frequency" name="usage-frequency" required>
                 <option value="" disabled selected>Select frequency</option>
                 <option value="daily">Daily</option>
@@ -24,7 +36,7 @@
             </select>
 
             <!-- Question 2: Primary Use of GitHub -->
-            <label for="primary-use">2. What is your primary purpose for using GitHub?</label>
+            <label for="primary-use"> What is your primary purpose for using GitHub?</label>
             <select id="primary-use" name="primary-use" required>
                 <option value="" disabled selected>Select purpose</option>
                 <option value="personal-projects">Personal Projects</option>
@@ -34,35 +46,35 @@
             </select>
 
             <!-- Question 3: Favorite GitHub Feature -->
-            <label for="favorite-feature">3. What is your favorite GitHub feature?</label>
+            <label for="favorite-feature"> What is your favorite GitHub feature?</label>
             <input type="text" id="favorite-feature" name="favorite-feature" required>
 
             <!-- Question 4: Open Source Contributions -->
-            <label for="open-source-contributions">4. Have you contributed to any open-source projects on GitHub? If yes, please share your experiences.</label>
+            <label for="open-source-contributions"> Have you contributed to any open-source projects on GitHub? If yes, please share your experiences.</label>
             <textarea id="open-source-contributions" name="open-source-contributions" rows="4" required></textarea>
 
             <!-- Question 5: Code Review Practices -->
-            <label for="code-review-practices">5. How often do you engage in code reviews on GitHub? What is your preferred method for code review?</label>
+            <label for="code-review-practices"> How often do you engage in code reviews on GitHub? What is your preferred method for code review?</label>
             <input type="text" id="code-review-practices" name="code-review-practices" required>
 
             <!-- Question 6: GitHub Workflow -->
-            <label for="github-workflow">6. Briefly describe your typical GitHub workflow, from creating a repository to managing issues and pull requests.</label>
+            <label for="github-workflow"> Briefly describe your typical GitHub workflow, from creating a repository to managing issues and pull requests.</label>
             <textarea id="github-workflow" name="github-workflow" rows="4" required></textarea>
 
             <!-- Question 7: Favorite GitHub Repositories -->
-            <label for="favorite-repositories">7. Do you have any favorite GitHub repositories or projects that you follow? If yes, please share them.</label>
+            <label for="favorite-repositories"> Do you have any favorite GitHub repositories or projects that you follow? If yes, please share them.</label>
             <textarea id="favorite-repositories" name="favorite-repositories" rows="4" required></textarea>
 
             <!-- Question 8: Challenges in Collaboration -->
-            <label for="collaboration-challenges">8. What challenges do you face when collaborating with others on GitHub? Any suggestions for improvement?</label>
+            <label for="collaboration-challenges"> What challenges do you face when collaborating with others on GitHub? Any suggestions for improvement?</label>
             <textarea id="collaboration-challenges" name="collaboration-challenges" rows="4" required></textarea>
 
             <!-- Question 9: GitHub Actions Usage -->
-            <label for="actions-usage">9. Have you used GitHub Actions in your projects? If yes, how has your experience been?</label>
+            <label for="actions-usage"> Have you used GitHub Actions in your projects? If yes, how has your experience been?</label>
             <input type="text" id="actions-usage" name="actions-usage" required>
 
             <!-- Question 10: Learning and Documentation -->
-            <label for="learning-documentation">10. How do you typically learn about new GitHub features or best practices? Do you find GitHub's documentation helpful?</label>
+            <label for="learning-documentation"> How do you typically learn about new GitHub features or best practices? Do you find GitHub's documentation helpful?</label>
             <textarea id="learning-documentation" name="learning-documentation" rows="4" required></textarea>
 
             <!-- Submit Button -->

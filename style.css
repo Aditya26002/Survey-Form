@@ -1,6 +1,6 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -8,10 +8,10 @@ body {
 .container {
     max-width: 800px;
     margin: 50px auto;
-    background-color: #fff;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.24);
 }
 
 .github-survey-form {
@@ -19,9 +19,14 @@ body {
     flex-direction: column;
 }
 
-h2 {
+h1 {
     text-align: center;
-    color: #007bff;
+    color: #0863eb;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 label {
@@ -39,6 +44,18 @@ textarea {
     border: 1px solid #ced4da;
     border-radius: 4px;
     font-size: 16px;
+}
+
+input:hover{
+    border: 1px solid #202224;
+}
+
+select:hover{
+    border: 1px solid #202224;
+}
+
+textarea:hover{
+    border: 1px solid #202224;
 }
 
 textarea {
